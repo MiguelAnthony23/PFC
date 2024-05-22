@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">USB Analyzer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">TFC Miguel.A</string>
+    <string name="nav_header_subtitle">migueanth@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Informacion Sistema</string>
+
+    <string name="menu_test">Test</string>
+    <string name="menu_testanterior">Tests Anteriores</string>
+    <string name="informacion_sistema_activity_label" />
+    <string name="resultado">Resultado</string>
+    <string name="reintentar">Reintentar</string>
+    <string name="test_anterior">Test anterior</string>
+    <!--<string name="menu_slideshow">Slideshow</string>-->
+</resources>

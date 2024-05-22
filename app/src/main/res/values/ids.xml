@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="nav_slideshow" type="id" />
+    <item name="action_realizar_test" type="id" />
+    <item name="textViewNivelBateriaValor" type="id" />
+    <item name="textViewDensidadPantallaValor" type="id" />
+    <item name="textViewResolucionPantallaValor" type="id" />
+    <item name="textViewAlmacenamientoInternoValor" type="id" />
+    <item name="textViewMemoriaRAMValor" type="id" />
+    <item name="textViewVelocidadRelojValor" type="id" />
+    <item name="textViewTipoProcesadorValor" type="id" />
+    <item name="textViewRegionValor" type="id" />
+    <item name="textViewIdiomaValor" type="id" />
+    <item name="textViewFabricanteDispositivoValor" type="id" />
+    <item name="textViewVersionKernelValor" type="id" />
+    <item name="textView_result" type="id" />
+    <item name="device_info_text_view" type="id" />
+    <item name="fragment_container" type="id" />
+    <item name="action_testFragment_to_resultFragment" type="id" />
+    <item name="nav_graph" type="id" />
+    <item name="textView_device_info_content" type="id" />
+    <item name="textView_charging_info_content" type="id" />
+    <item name="nav_view" type="id" />
+    <item name="action_system_info" type="id" />
+    <item name="container_test_fragment" type="id" />
+    <item name="container_result_fragment" type="id" />
+    <item name="container_device_info_fragment" type="id" />
+    <item name="nav_testanterior" type="id" />
+    <item name="nav_result" type="id" />
+    <item name="nav_charging" type="id" />
+    <item name="nav_device_info" type="id" />
+    <item name="nav_system_info" type="id" />
+    <item name="nav_test" type="id" />
+    <item name="action_test_to_result" type="id" />
+    <item name="noDeviceFragment" type="id" />
+    <item name="action_show_dialog" type="id" />
+
+</resources>

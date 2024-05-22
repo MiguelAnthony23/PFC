@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "937334128252",
+    "project_id": "fct-2245e",
+    "storage_bucket": "fct-2245e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937334128252:android:95b085ac001d30651753f9",
+        "android_client_info": {
+          "package_name": "com.example.menu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTIkJE2bzAoTVuaCeEtooqr0_PnNoA44E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

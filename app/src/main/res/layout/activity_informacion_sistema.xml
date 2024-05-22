@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewNombreDispositivo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre del Dispositivo:"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewNombreDispositivoValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_below="@id/textViewNombreDispositivo"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewFabricanteDispositivo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fabricante del Dispositivo:"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewNombreDispositivoValor"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewFabricanteDispositivoValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_below="@id/textViewFabricanteDispositivo"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewVersionAndroid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Versión de Android:"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewFabricanteDispositivoValor"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewVersionAndroidValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_below="@id/textViewVersionAndroid"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewModeloAndroid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modelo de Android:"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewVersionAndroidValor"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewModeloAndroidValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_below="@id/textViewModeloAndroid"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewVersionKernel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Versión del Kernel:"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewModeloAndroidValor"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewVersionKernelValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_below="@id/textViewVersionKernel"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewIdioma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Idioma del Dispositivo:"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewVersionKernelValor"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewIdiomaValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_below="@id/textViewIdioma"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewRegion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Región del Dispositivo:"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewIdiomaValor"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewRegionValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_below="@id/textViewRegion"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewTipoProcesador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo de Procesador:"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewRegionValor"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewTipoProcesadorValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_below="@id/textViewTipoProcesador"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewVelocidadReloj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Velocidad del Reloj (GHz):"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewTipoProcesadorValor"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewVelocidadRelojValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_below="@id/textViewVelocidadReloj"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewMemoriaRAM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Memoria RAM (MB):"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewVelocidadRelojValor"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewMemoriaRAMValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_below="@id/textViewMemoriaRAM"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewAlmacenamientoInterno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Almacenamiento Interno Disponible (MB):"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewMemoriaRAMValor"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewAlmacenamientoInternoValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_below="@id/textViewAlmacenamientoInterno"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewResolucionPantalla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resolución de Pantalla:"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewAlmacenamientoInternoValor"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewResolucionPantallaValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_below="@id/textViewResolucionPantalla"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewDensidadPantalla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Densidad de Pantalla (dpi):"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewResolucionPantallaValor"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewDensidadPantallaValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_below="@id/textViewDensidadPantalla"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewNivelBateria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nivel de Batería:"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewDensidadPantallaValor"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewNivelBateriaValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_below="@id/textViewNivelBateria"
+        android:layout_marginStart="16dp"/>
+
+    </LinearLayout>
+</ScrollView>
+
+
